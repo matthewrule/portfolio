@@ -2,48 +2,89 @@
 <html>
   <head>
     <title> Portfolio | Matthew Rule </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Material Design lite -->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-purple.min.css" />
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+<!-- Font Awesome -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <header>
+    <header> <!-- hero image -->
       <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1> Matthew Rule </h1>
       <p class= "solgan"> "Full Time Coffee Nerd, Part Time Designer" </p>
       </header>
-      <main>
-        <div class="project feature-project">
-          <img src="http://lorempixel.com/400/200/sports/" alt="Motocross"/>
-          <h2> Image #1 </h2>
-          <p> Sample image placeholder for future project </p>
+        <main class="mdl-layout__content mdl-grid">
+<!-- first "Feature" project -->
+        <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+         <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+           <img src="http://lorempixel.com/400/200/sports/" alt="Motocross"/>
+         </div>
+          <div class="mdl-cell mdl-cell--7-col">
+          <h2 class="mdl-card__title-text"> Image #1 </h2>
+          <p class="mdl-card__supporting-text"> Sample image placeholder for future project </p>
         </div>
-        <div class="project">
+      </div>
+<!-- second project -->
+        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div>
           <img src="http://lorempixel.com/400/200/sports/1/" alt="Cricket"/>
-          <h2> Image #2 </h2>
-          <p> Sample image for another project </p>
         </div>
-        <div class="project">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text"> Image #2 </h2>
+        </div>
+          <div class="mdl-card__supporting-text"> Sample image for another project </div>
+        </div>
+<!-- third project -->
+        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div>
           <img src="http://lorempixel.com/400/200/" alt="eye"/>
-          <h2> Image #3 </h2>
-          <p> Sample image of photography </p>
         </div>
-        <div class="project">
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text"> Image #3 </h2>
+        </div>
+           <div class="mdl-card__supporting-text"> Sample image of photography </div>
+        </div>
+<!-- fourth project -->
+        <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+          <div>
           <img src="http://lorempixel.com/400/200/" alt="Music"/>
-          <h2> Image #4 </h2>
-          <p> Music dummy project, example #4 </p>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text"> Image #4 </h2>
+        </div>
+           <div class="mdl-card__supporting-text"> Music dummy project, example #4 </div>
           </div>
+
       </main>
-    <footer>
-      <li> <a href="https://www.linkedin.com/in/matthew-rule-7a2a501b/">Linkedin</a> </li>
-      <li> <a href="https://github.com/matthewrule">github</a> </li>
-      <li> <a href="https://www.facebook.com/mrule10">Facebook</a> </li>
-      <li> <a href="https://twitter.com/MatthewRule2">Twitter</a> </li>
-      <li> <a href="https://www.instagram.com/matthewrule/">Instagram</a> </li>
-      <li> <a href="mailto:matthewrule10@gmail.com">email me</a>
+        <footer class="mdl-mini-footer">
+          <ul class="mdl-mini-footer__link-list">
+
+            <li> <a href="https://www.linkedin.com/in/matthew-rule-7a2a501b/">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+          </li>
+            <li> <a href="https://github.com/matthewrule">
+              <i class="fa fa-github-square" aria-hidden="true"></i>
+            </a>
+          </li>
+            <li> <a href="https://www.facebook.com/mrule10">
+              <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </li>
+            <li> <a href="https://twitter.com/MatthewRule2">
+              <i class="fa fa-twitter-square" aria-hidden="true"></i>
+            </a>
+          </li>
+            <li> <a href="mailto:matthewrule10@gmail.com">
+              <i class="fa fa-envelope-square" aria-hidden="true"></i>
+            </a>
+          </li>
       </footer>
   </body>
 </html>
